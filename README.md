@@ -14,25 +14,18 @@
 - Git and GitHub 
 - Command line and file navigation
 
-### Project Tasks
-
-| To Do                             | In Progress            | Done                               |
-|-----------------------------------|------------------------|------------------------------------|
-| Build the Home Page / TIK-001     | Plan your project      | Create files and deploy it locally |
-| Build the Contact Page / TIK-002  | Wireframe your website | Version control                    |
-| Style the content / TIK-003       |                        |                                    |
-| Make it interactive / TIK-004     |                        |                                    |
-| Make it responsive /TIK-005       |                        |                                    |
-| Publish to the web                |                        |                                    |
-
-### Current Progress
-- [ ] Plan your project: 0%
-- [ ] Wireframe your website: 0%
+### Project Tasks & Current Progress
+- [x] Plan your project: 100% | 03.27.2023
+- [x] Wireframe your website: 100% | 03.27.2023
 - [x] Create files and deploy it locally: 100% | 03.27.2024
 - [x] Version control: 100% | 03.27.2024
-- [ ] Build the Home Page: 0%
-- [ ] Build the Contact Page: 0%
-- [ ] Style the content: 0%
+- [ ] Build the Home Section: 0%
+- [ ] Build the Home Section: 0%     
+- [ ] Build the About Section: 0% 
+- [ ] Build the Process Section: 0% 
+- [ ] Build the Portfolio Section: 0% 
+- [ ] Build the Blog Section: 0% 
+- [ ] Style the content: 0% 
 - [ ] Make it interactive: 0%
 - [ ] Make it responsive: 0%
 - [ ] Publish to the web: 0%
