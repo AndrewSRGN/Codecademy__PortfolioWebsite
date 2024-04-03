@@ -15,15 +15,14 @@
 - Command line and file navigation
 
 ### Project Tasks & Current Progress
-- [x] Plan your project: 100% | 03.27.2023
-- [x] Wireframe your website: 100% | 03.27.2023
+- [x] Plan your project: 100% | 03.27.2024
+- [x] Wireframe your website: 100% | 03.27.2024
 - [x] Create files and deploy it locally: 100% | 03.27.2024
 - [x] Version control: 100% | 03.27.2024
-- [x] Build the Home Section: 0% | in progress
-- [ ] Build the Home Section: 0%     
-- [ ] Build the About Section: 0% 
-- [ ] Build the Process Section: 0% 
-- [ ] Build the Portfolio Section: 0% 
+- [x] Build the Home Section: 100% | in progress 
+- [x] Build the About Section: 100% | 04.03.2024
+- [x] Build the Process Section: 100% | 04.03.2024
+- [x] Build the Portfolio Section: 100% | 04.03.2024
 - [ ] Build the Blog Section: 0% 
 - [ ] Style the content: 0% 
 - [ ] Make it interactive: 0%
