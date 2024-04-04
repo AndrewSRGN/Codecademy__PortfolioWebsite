@@ -20,16 +20,31 @@ let autoSizing = (element) => {
 };
 
 let autoAsterisk = (element) => {
-    let elementId = element.id;
-    document.querySelector('label[for = "' + elementId + '"]').innerHTML += ' *';
+    let labelElement = document.querySelector('label[for = "' + element.id + '"]');
+
+    labelElement.innerHTML += ' *';
 
     element.addEventListener('blur', () => {
-        if (element.value !== '') {
-            let text = document.querySelector('label[for = "' + elementId + '"]').innerHTML;
-            text = text.slice(0, -2);
-            document.querySelector('label[for = "' + elementId + '"]').innerHTML = text;
+        let isAsterisk = labelElement.innerHTML.indexOf('*') === labelElement.innerHTML.length - 1;
+        console.log(labelElement.innerHTML.indexOf('*'));
+        console.log(labelElement.innerHTML.length);
+        console.log(isAsterisk);
+        if (element.value === '' && !isAsterisk) {
+            addAsterisk(labelElement)
+        }
+        if (element.value !== '' && isAsterisk) {
+            removeAsterisk(labelElement)
         }
     });
+};
+
+let addAsterisk = (element) => {
+    element.innerHTML += ' *';
+};
+
+let removeAsterisk = (element) => {
+    let asteriskIndex = element.innerHTML.indexOf('*');
+    element.innerHTML = element.innerHTML.substring(0, asteriskIndex - 1);
 };
 
 Array.from(textareaFields).forEach(autoSizing);
