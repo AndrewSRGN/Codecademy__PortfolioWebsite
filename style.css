@@ -912,6 +912,7 @@ header {
     top: 0;
     left: 0;
     transform: translateY(+50%);
+    transition: all 0.15s ease-in-out;
 }
 
 .form__input {
@@ -923,6 +924,7 @@ header {
     padding: .5em 0;
     margin-bottom: 1.5em;
 
+    transition: all 0.15s ease-in-out;
     resize: none;
 }
 
@@ -981,7 +983,6 @@ header {
 #footer__nav ul li a {
     color: white;
     font-size: .8em;
-    margin-bottom: .5em;
 }
 
 .footer-end {
