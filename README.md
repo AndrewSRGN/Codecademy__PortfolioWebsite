@@ -23,8 +23,8 @@
 - [x] Build the About Section: 100% | 04.03.2024
 - [x] Build the Process Section: 100% | 04.03.2024
 - [x] Build the Portfolio Section: 100% | 04.03.2024
-- [ ] Build the Blog Section: 0% 
-- [ ] Style the content: 0% 
-- [ ] Make it interactive: 0%
-- [ ] Make it responsive: 0%
+- [x] Build the Blog Section: 100% | 04.03.2024
+- [x] Style the content: 100% | 04.03.2024
+- [ ] Make it interactive: 0% | in progress...
+- [ ] Make it responsive: 0% | in progress...
 - [ ] Publish to the web: 0%
