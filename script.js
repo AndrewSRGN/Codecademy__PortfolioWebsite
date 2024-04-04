@@ -10,3 +10,9 @@ for (let i = 0; i < ProcessCards.length; i++) {
     }
 }
 
+let TestimonialsPosition = document.getElementsByClassName('testimonials__card-position');
+
+for (let i = 0; i < TestimonialsPosition.length; i++) {
+    let text = TestimonialsPosition[i].innerHTML;
+    TestimonialsPosition[i].innerHTML = '[' + text + ']';
+}
