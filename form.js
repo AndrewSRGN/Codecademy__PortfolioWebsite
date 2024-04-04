@@ -24,11 +24,20 @@ let autoAsterisk = (element) => {
 
     labelElement.innerHTML += ' *';
 
+    element.addEventListener('keyup', () => {
+        let isAsterisk = labelElement.innerHTML.indexOf('*') === labelElement.innerHTML.length - 1;
+        if (element.value === '' && !isAsterisk) {
+            addAsterisk(labelElement);
+            console.log('Add asterisk');
+        }
+        if (element.value !== '' && isAsterisk) {
+            removeAsterisk(labelElement);
+            console.log('Remove asterisk');
+        }
+    });
+
     element.addEventListener('blur', () => {
         let isAsterisk = labelElement.innerHTML.indexOf('*') === labelElement.innerHTML.length - 1;
-        console.log(labelElement.innerHTML.indexOf('*'));
-        console.log(labelElement.innerHTML.length);
-        console.log(isAsterisk);
         if (element.value === '' && !isAsterisk) {
             addAsterisk(labelElement)
         }
